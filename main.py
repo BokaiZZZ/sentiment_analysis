@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     """Return a friendly HTTP greeting."""
-    return "Welcome to this sentimantal trend analysis interface!"
+    return "Welcome to the sentimantal trend analysis interface!"
 
 
 @app.route("/predict/<text>")
