@@ -1,6 +1,5 @@
 from flask import Flask, jsonify
 from predict import predict_label
-import nltk
 
 app = Flask(__name__)
 
