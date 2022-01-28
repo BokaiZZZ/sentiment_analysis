@@ -7,7 +7,9 @@ from nltk.stem import PorterStemmer
 import joblib
 
 # preprocess 
-def preprocessing(text):
+def preprocessing(text): 
+    nltk.download('punkt')
+    nltk.download('stopwords') 
     #分词
     token_words = word_tokenize(text)
     #去除停用词

@@ -2,9 +2,6 @@ from flask import Flask, jsonify
 from predict import predict_label
 import nltk
 
-nltk.download("punkt")
-nltk.download("stopwords")
-
 app = Flask(__name__)
 
 
@@ -17,7 +14,7 @@ def hello():
 @app.route("/predict/<text>")
 def predict(text):
     pred = predict_label(text)
-    val = {"trend": pred}
+    val = {"text":text, "trend": pred}
     return jsonify(val)
 
 
