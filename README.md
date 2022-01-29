@@ -20,6 +20,7 @@ Type "/predict/text" after the URL, where "text" is what the user want to predic
 - negative
 ![negative](https://user-images.githubusercontent.com/97444802/151588461-4a7a4293-60c5-4d73-b600-3d09ee617cdd.png)
 
+The demo video is uploaded on [Youtube](https://youtu.be/eYdy20-Yg8U). 
 
 ## Function introduction 
 
